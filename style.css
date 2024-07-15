@@ -1,5 +1,5 @@
 body {
-	background-color: #ffe180;
+	background-color: #50A5E6;
 	margin: 0px;
 	min-height: 100vh;
 	display: flex;
@@ -109,13 +109,13 @@ div {
 	position: sticky;
 	top: 0;
 	box-shadow: 0px 0px 15px;
-	background-color: #cfa006;
+	background-color: #1C6399;
 }
 
 .footer {
 	text-align: center;
 	color: white;
-	background: #cfa006;
+	background: #1C6399;
 	width: 100%;
 	margin-top: auto;
 }
