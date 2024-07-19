@@ -1,93 +1,100 @@
 body {
-	background-color:#192B57;
 	margin: 0px;
-	min-height: 100vh;
 	display: flex;
+	min-height: 100vh;
 	flex-direction: column;
-}
-.grad {
-}
-
-.site-title{
-	
-}
-
-.list {
-	text-align: left;
-	color:white;
-	text-decoration:none;
-}
-
-.list:hover {
-	text-decoration: underline;
-}
-
-ul {
-	color:white;
-	font-family: arial;
-	padding-left: 13%;
-	text-align:left;
-}
-
-li {
-	
-}
-
-
-label {
-  display: inline-block;
-  min-width: 90px;
-  text-align: right;
-}
-
-h1 {
-	font-family: arial;
-}
-
-p {
-	font-family: arial;
-}
-
-.nav-buttons {
-	display: inline;
-	padding: 14px;
-	float: left;
-	align: center;
-	color: white;
-	font-family: arial;
-	text-decoration: none;
-}
-
-.active {
-	text-decoration: underline;
+	background-color:#192B57;
 }
 
 .nav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	position: sticky;
 	top: 0;
+	position: sticky;
 	box-shadow: 0px 0px 15px;
 	background-color: #1B3045;
 }
 
-.footer {
+.nav a{
+	float: left;
+	color: white;
+	padding: 14px;
+	display: inline;
+	font-family: arial;
 	text-align: center;
+	text-decoration: none;
+}
+
+.nav a:hover, .dropdown:hover .dropbutton{
 	color: black;
+	background-color: #A7C3DE;
+	border-radius: 10px;
+	border:#A7C3DE;
+}
+
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown a{
+	color: white;
+	padding: 14px;
+	display: block;
+	font-family: arial;
+}
+
+.dropdown:hover .content{
+	display: block;
+}
+
+.content{
+	display: none;
+	position: absolute;
 	background-color: #1B3045;
+	box-shadow: 0px 0px 15px hsla(0, 0%, 0%, 1); /* vertical, horizontal, blur and (opacity) */
+}
+
+.content a{
+	float:none;
+	text-align: center;
+}
+
+.dropbutton{
+	border: none;
+	color: white;
+	padding: 14px;
+	font-size: 16;
+	cursor: pointer;
+	background-color: #1B3045;
+}
+
+.list {
+	color:white;
+	text-align: left;
+	text-decoration:none;
+}
+
+.list:hover {text-decoration: underline;}
+
+ul {
+	color:white;
+	text-align:left;
+	padding-left: 13%;
+	font-family: arial;
+}
+
+h1, p{font-family: arial;}
+
+.footer {
 	width: 100%;
+	color: black;
 	margin-top: auto;
+	text-align: center;
+	background-color: #1B3045;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.active {
+	color: black;
+	border-radius: 10px;
+	border:#A7C3DE;
+	background-color: #A7C3DE;
 }
-
-
-
-
