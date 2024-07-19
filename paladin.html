@@ -1,0 +1,77 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="table.css">
+</head>
+<style>
+#more {display:none;}
+</style>
+<body>
+
+<div class="nav">
+	<a href="index.html"> Current Events </a>
+	<div class="dropdown">
+		<button class="dropbutton active">Paladin</button> 
+		<div class="content">
+			<a class="artificer" href="artificer.html">Artificer</a>
+		</div>
+	</div>	
+</div>
+
+<table>
+	<tr>
+		<th>
+			
+			<h1 style="text-align:left;color:white;padding-left: 11%;padding-top:2%;">Artificer</h1>
+			<p style="text-align:left;color:white;padding-left: 11%;padding-top:2%;">This is character page for the Artificer.</p>
+			
+			<!--list of bookmarks-->
+			<ul>
+				<li><a class="list" href="#function"> Function </a></li>
+				<li><a class="list" href="#lvl"> Level Chart </a></li>
+				<li><a class="list" href="#stats"> Stats </a></li>
+				<li><a class="list" href="#abilities"> Abilities </a></li>
+			</ul>
+			
+			<!--table containing the prologue-->
+			<center>
+			
+			<!-- Function section -->
+				<table style="width: 79%"id="function">
+					<tr>
+						<th class="table">
+							<h1 style="text-align: center; padding: 20px;" >Function</h1>
+							<hr style="height:2px;background-color:#1C6399;">
+							<p style="text-align: left;">Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions.</p>
+							<p style="text-align: left;">Artificers use a variety of tools to channel their arcane power. To cast a spell, an artificer might use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents, and few other characters can produce the right tool for a job as well as an artificer.</p>
+						</th>
+					</tr>
+				</table>
+			</center>
+		</th>
+	</tr>
+</table>
+
+<script>
+function firstFunction() {
+	var close = document.getElementById("less");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("hd");
+	
+	
+    if (close.style.display === "none") {
+      close.style.display = "inline";
+      btnText.innerHTML = "[+]"; 
+      moreText.style.display = "none";
+    } else {
+      close.style.display = "none";
+      btnText.innerHTML = "[-]"; 
+      moreText.style.display = "inline";
+	}
+}
+</script>
+
+<div class="footer" style="height:75px;"></div>
+</body>
+</html>
+

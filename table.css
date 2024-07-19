@@ -1,0 +1,24 @@
+.table{
+	background-color: #A7C3DE;
+	padding: 30px;
+	font-family: Tahoma;
+	border-radius: 10px;
+	border: 3px solid #1C6399;
+}
+
+td, th tr{
+	padding:2px;
+}
+
+.border1{
+	padding-bottom: 16px;
+	border-bottom: 3px solid black;
+}
+
+table{
+	margin:10;
+}
+
+tbody,{
+	background-color:#889FB5;
+}
