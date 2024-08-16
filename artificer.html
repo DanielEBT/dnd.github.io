@@ -1,0 +1,529 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="table.css">
+<link rel="stylesheet" href="popup.css">
+<link rel="stylesheet" href="popup2.css">
+<link rel="stylesheet" href="popup3.css">
+</head>
+<body>
+
+<div class="nav">
+	<a href="index.html"> Current Events </a>
+	<div class="dropdown">
+		<button class="dropbutton active">Artificer</button> 
+		<div class="content">
+			<a class="paladin" href="paladin.html">Paladin</a>
+		</div>
+	</div>	
+</div>
+
+<table>
+	<tr>
+		<th>
+			
+			<h1 style="text-align:left;color:white;padding-left: 11%;padding-top:2%;">Artificer</h1>
+			<p style="text-align:left;color:white;padding-left: 11%;padding-top:2%;">This is character page for the Artificer.</p>
+			
+			<!--list of bookmarks-->
+			<ul class="listbg">
+				<li><a class="list" href="#function"> Function </a></li>
+				<li><a class="list" href="#lvl"> Level Chart </a></li>
+				<li><a class="list" href="#stats"> Stats </a></li>
+				<li><a class="list" href="#abilities"> Abilities </a></li>
+			</ul>
+			
+			<!--table containing the prologue-->
+			<center>
+			
+			<!-- Function section -->
+				<table style="width: 79%"id="function">
+					<tr>
+						<th class="table">
+							<h1 style="text-align: center; padding: 20px;" >Function</h1>
+							<hr style="height:2px;background-color:#1C6399;">
+							<p style="text-align: left;">Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions.</p>
+							<p style="text-align: left;">Artificers use a variety of tools to channel their arcane power. To cast a spell, an artificer might use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents, and few other characters can produce the right tool for a job as well as an artificer.</p>
+						</th>
+					</tr>
+				</table>
+				
+			<!-- Level chart section -->
+				<h1 id="lvl" style="text-align:left;color:white;padding-left: 11%;padding-top:2%;">Level Chart</h1>
+			
+				<table style="width: 79%" class="table">
+					<tbody>
+					<tr>
+						<th class="border1" colspan="4">The Artificer</th>
+						<th class="border1" colspan="8">Slots per Level</th>
+					</tr>
+					</tbody>
+					<tfoot>
+					<tr>
+						<th>Level</th>
+						<th>Proficiency Bonus</th>
+						<th>Features</th>
+						<th>Infusions Known</th>
+						<th>Infused Items</th>
+						<th>Cantrips Known</th>
+						<th>1st</th>
+						<th>2nd</th>
+						<th>3rd</th>
+						<th>4th</th>
+						<th>5th</th>
+					</tr>
+					<tr>
+						<td>1st</td>
+						<td>+2</td>
+						<td>Magical Tinkering, Spellcasting</td>
+						<td>-</td>
+						<td>-</td>
+						<td>2</td>
+						<td>2</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>2nd</td>
+						<td>+2</td>
+						<td>Infuse Item</td>
+						<td>4</td>
+						<td>2</td>
+						<td>2</td>
+						<td>2</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>3rd</td>
+						<td>+2</td>
+						<td>Artificer Specialist, The Right Tool for the Job</td>
+						<td>4</td>
+						<td>2</td>
+						<td>2</td>
+						<td>3</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>4th</td>
+						<td>+2</td>
+						<td>Ability Score Improvement</td>
+						<td>4</td>
+						<td>2</td>
+						<td>2</td>
+						<td>3</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>5th</td>
+						<td>+3</td>
+						<td>Artificer Specialist feature</td>
+						<td>4</td>
+						<td>2</td>
+						<td>2</td>
+						<td>4</td>
+						<td>2</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>6th</td>
+						<td>+3</td>
+						<td>Tool Expertise</td>
+						<td>6</td>
+						<td>3</td>
+						<td>2</td>
+						<td>4</td>
+						<td>2</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>7th</td>
+						<td>+3</td>
+						<td>Flash of Genius</td>
+						<td>6</td>
+						<td>3</td>
+						<td>2</td>
+						<td>4</td>
+						<td>3</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>8th</td>
+						<td>+3</td>
+						<td>Ability Score Improvement</td>
+						<td>6</td>
+						<td>3</td>
+						<td>2</td>
+						<td>4</td>
+						<td>3</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>9th</td>
+						<td>+4</td>
+						<td>Artificer Specialist feature</td>
+						<td>6</td>
+						<td>3</td>
+						<td>2</td>
+						<td>4</td>
+						<td>3</td>
+						<td>2</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>10th</td>
+						<td>+4</td>
+						<td>Magic Item Adept</td>
+						<td>8</td>
+						<td>4</td>
+						<td>3</td>
+						<td>4</td>
+						<td>3</td>
+						<td>2</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>11th</td>
+						<td>+4</td>
+						<td>Spell-Storing Item</td>
+						<td>8</td>
+						<td>4</td>
+						<td>3</td>
+						<td>4</td>
+						<td>3</td>
+						<td>3</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>12th</td>
+						<td>+4</td>
+						<td>Ability Score Improvement</td>
+						<td>8</td>
+						<td>4</td>
+						<td>3</td>
+						<td>4</td>
+						<td>3</td>
+						<td>3</td>
+						<td>-</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>13th</td>
+						<td>+5</td>
+						<td>-</td>
+						<td>8</td>
+						<td>4</td>
+						<td>3</td>
+						<td>4</td>
+						<td>3</td>
+						<td>3</td>
+						<td>1</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>14th</td>
+						<td>+5</td>
+						<td>Magic Item Savant</td>
+						<td>10</td>
+						<td>5</td>
+						<td>4</td>
+						<td>4</td>
+						<td>3</td>
+						<td>3</td>
+						<td>1</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>15th</td>
+						<td>+5</td>
+						<td>Artificer Specialist feature</td>
+						<td>10</td>
+						<td>5</td>
+						<td>4</td>
+						<td>4</td>
+						<td>3</td>
+						<td>3</td>
+						<td>2</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>16th</td>
+						<td>+5</td>
+						<td>Ability Score Improvement</td>
+						<td>10</td>
+						<td>5</td>
+						<td>4</td>
+						<td>4</td>
+						<td>3</td>
+						<td>3</td>
+						<td>2</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td>17th</td>
+						<td>+6</td>
+						<td>-</td>
+						<td>10</td>
+						<td>5</td>
+						<td>4</td>
+						<td>4</td>
+						<td>3</td>
+						<td>3</td>
+						<td>3</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>18th</td>
+						<td>+6</td>
+						<td>Magic Item Master</td>
+						<td>12</td>
+						<td>6</td>
+						<td>4</td>
+						<td>4</td>
+						<td>3</td>
+						<td>3</td>
+						<td>3</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>19th</td>
+						<td>+6</td>
+						<td>Ability Score Improvement</td>
+						<td>12</td>
+						<td>6</td>
+						<td>4</td>
+						<td>4</td>
+						<td>3</td>
+						<td>3</td>
+						<td>3</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td>20th</td>
+						<td>+6</td>
+						<td>Soul of Artifice</td>
+						<td>12</td>
+						<td>6</td>
+						<td>4</td>
+						<td>4</td>
+						<td>3</td>
+						<td>3</td>
+						<td>3</td>
+						<td>2</td>
+					</tr>
+					</tfoot>
+				</table>
+				
+			<!-- Stats section -->
+				<table style="width: 79%"id="stats">
+					<tr>
+						<td class="table" style="margin:0;">
+							<h1 style="text-align: center; padding: 20px;" >Stats</h1>
+							<hr style="height:2px;background-color:#1C6399;">
+							<h3 style="text-align:left;">Health Points</h3>
+							
+							
+							<!-- Hit Dice -->
+							<p style="text-align: left;"><b>Hit Dice</b><button class="button" id="hitDiceButton">[+]</button>: 1d8 per artificer level</p>
+							
+							<!-- Hit Dice Window -->
+							<center>
+							<div id="hitDice" class="modal">
+
+							  <!-- Modal content -->
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Hit Dice</h2>
+									</div>
+									<div class="modal-body">
+										<p style="padding-left:10;padding-right:10;">How many times you roll this die when regaining health from a short rest</p>
+									</div>
+								</div>
+							</div>
+							</center>
+							
+							<!-- Hit Points -->
+							<p style="text-align: left;"><b>Hit Points at 1st Level</b><button class="button" id="hitPointsButton">[+]</button>: 8 + your Constitution modifier</p>
+							<center>
+							<div id="hitPoints" class="modal">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Hit Points at 1st Level</h2>
+									</div>
+									<div class="modal-body">
+										<p style="padding-left:10;padding-right:10;">How many health points you get on the 1st level</p>
+									</div>
+								</div>
+							</div>
+							</center>
+							
+							<!-- Higher Hit Points -->
+							<p style="text-align: left;"><b>Hit Points at Higher Levels</b><button class="button" id="higherHitPointsButton">[+]</button>: 1d8 (or 5) + your Constitution modifier per artificer level after 1st</p>
+							<center>
+							<div id="higherHitPoints" class="modal">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Hit Points at Higher Levels</h2>
+									</div>
+									<div class="modal-body">
+										<p style="padding-left:10;padding-right:10;">Your level is the amount of times you roll a 1d8 + Constitution modifier to determine your max hitpoints</p>
+									</div>
+								</div>
+							</div>
+							</center>
+							
+							
+							<!-- Proficiencies -->
+							<h3 style="text-align:left;padding-top:10;">Proficiencies</h3>
+							
+							<!-- Armor -->
+							<p style="text-align: left;"><b>Armor</b><button class="button" id="armorButton">[+]</button>: Light, medium and shields</p>
+							<center>
+							<div id="armor" class="modal">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Armor</h2>
+									</div>
+									<div class="modal-body">
+										<p style="padding-left:10;padding-right:10;">You can won't be disadvantaged on ability checks, saving throws or attack rolls involving Dexterity or Stength, plus you can use spells even with these equipped.</p>
+									</div>
+								</div>
+							</div>
+							</center>
+							
+							<!-- Weapons -->
+							<p style="text-align: left;"><b>Weapons</b><button class="button" id="weaponsButton">[+]</button>: Simple weapons</p>
+							<center>
+							<div id="weapons" class="modal">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Weapons</h2>
+									</div>
+									<div class="modal-body">
+										<p style="padding-left:10;padding-right:10;">When attacking, you add your proficiency bonus to your attack roll.</p>
+									</div>
+								</div>
+							</div>
+							</center>
+							
+							<!-- Tools -->
+							<p style="text-align: left;"><b>Tools</b><button class="button" id="toolsButton">[+]</button>: Thieves’ tools, tinker’s tools, one type of artisan’s tools of your choice</p>
+							<center>
+							<div id="tools" class="modal">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Tools</h2>
+									</div>
+									<div class="modal-body">
+										<p style="padding-left:10;padding-right:10;">When doing an ability check with these tools, you add your proficiency bonus to your roll.</p>
+									</div>
+								</div>
+							</div>
+							</center>
+							
+							<!-- Saving Throws -->
+							<p style="text-align: left;"><b>Saving Throws</b><button class="button" id="savingThrowsButton">[+]</button>: Constitution, Intelligence</p>
+							<center>
+							<div id="savingThrows" class="modal">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Saving Throws</h2>
+									</div>
+									<div class="modal-body">
+										<p style="padding-left:10;padding-right:10;">When your hitpoints have reached 0 you have to make some saving throws to stableize yourself. These are the stats you can choose to do saving throws from.</p>
+									</div>
+								</div>
+							</div>
+							</center>
+							
+							<!-- Skills -->
+							<p style="text-align: left;"><b>Skills</b><button class="button" id="skillsButton">[+]</button>: Choose two from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand</p>
+							<center>
+							<div id="skills" class="modal">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Skills</h2>
+									</div>
+									<div class="modal-body">
+										<p style="padding-left:10;padding-right:10;">You add a proficiency bonus when making checks involving your chosen skills.</p>
+									</div>
+								</div>
+							</div>
+							</center>
+							
+							<!-- Equipment -->
+							<h3 style="text-align:left;padding-top:10;">Equipment</h3>
+							
+							<p>In addition to the equipment you get from your background, you start with:</p>
+							<ul>
+								<li>Two chosen simple weapons</li>
+								<li>Light crossbow and 20 bolts</li>
+								<li><button class="button" id="slButton">[a]</button> studded leather armor or <button class="button" id="smButton">[b]</button> scale mail</li>
+								<li>Thieves’ tools and a dungeoneer’s pack</li>
+							</ul>
+							<center>
+							<div id="sl" class="modal">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Studded Leather</h2>
+									</div>
+									<div class="modal-body">
+										<p style="padding-left:10;padding-right:10;">Valued at 45gp and gives 12 + Dex Modifier AC.</p>
+									</div>
+								</div>
+							</div>
+							<div id="sm" class="modal">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2>Scale Mail</h2>
+									</div>
+									<div class="modal-body">
+										<p style="padding-left:10;padding-right:10;">Valued at 50gp and gives 14 + Dex Modifier (max 2) AC and stealth disadvantage.</p>
+									</div>
+								</div>
+							</div>
+							</center>
+							<p>Alternatively, you can start with 5d4x10 starting gold</p>
+							
+							<p style="text-align: left;"> </p>
+						</td>
+					</tr>
+				</table>
+				
+				<table style="width: 79%"id="function">
+				</table>
+			</center>
+		</th>
+	</tr>
+</table>
+
+
+
+
+<script src="script.js"></script>
+
+<div class="footer" style="height:75px;"></div>
+</body>
+</html>
+

@@ -1,0 +1,73 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="table.css">
+</head>
+<style>
+#more {display:none;}
+</style>
+<body>
+
+<div class="nav">
+	<a href="index.html"> Current Events </a>
+	<div class="dropdown">
+		<button class="dropbutton active">Paladin</button> 
+		<div class="content">
+			<a class="artificer" href="artificer.html">Artificer</a>
+		</div>
+	</div>	
+</div>
+
+<table>
+	<tr>
+		<th>
+			
+			<h1 style="text-align:left;color:white;padding-left: 11%;padding-top:2%;">Paladin</h1>
+			<p style="text-align:left;color:white;padding-left: 11%;padding-top:2%;">This is character page for the Paladin.</p>
+			
+			<!--list of bookmarks-->
+			<ul>
+				<li><a class="list" href="#function"> Jasmine </a></li>
+			</ul>
+			
+			<!--table containing the prologue-->
+			<center>
+			
+			<!-- Function section -->
+				<table style="width: 79%"id="function">
+					<tr>
+						<th class="table">
+							<h1 style="text-align: center; padding: 20px;" >Jasmine</h1>
+							<hr style="height:2px;background-color:#1C6399;">
+							<p style="text-align: left;">I have a message for you...<button onclick="firstFunction()" id="hd"style="border:none; padding:0; background-color:inherit; font-size:12;cursor:pointer;">[+]</button><span id="less"></span><span id="more" style="font-size:12; color:grey;"> (get some breath mint, I can smell you through the voice chats PEEEEEEEEEEEEEEYOUUUUUUUUUUUUUUUU!!!!!!</span></p>
+						</th>
+					</tr>
+				</table>
+			</center>
+		</th>
+	</tr>
+</table>
+
+<script>
+function firstFunction() {
+	var close = document.getElementById("less");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("hd");
+	
+	
+    if (close.style.display === "none") {
+      close.style.display = "inline";
+      btnText.innerHTML = "[+]"; 
+      moreText.style.display = "none";
+    } else {
+      close.style.display = "none";
+      btnText.innerHTML = "[-]"; 
+      moreText.style.display = "inline";
+	}
+}
+</script>
+
+<div class="footer" style="height:75px;"></div>
+</body>
+</html>
+
